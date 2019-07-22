@@ -15,6 +15,7 @@ from tqdm import tqdm_notebook
 
 import lightgbm as lgb
 import xgboost as xgb
+import catboost
 from catboost import CatBoostRegressor, CatBoostClassifier
 from sklearn import metrics
 
